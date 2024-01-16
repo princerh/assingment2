@@ -358,11 +358,14 @@ font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 
 
-
+.hori{
+    color: black;
+}
 
 
   @media screen and (max-width:576px)
@@ -546,8 +549,6 @@ padding: 16px;
 
   }
   
-
-  }
 
 
   
