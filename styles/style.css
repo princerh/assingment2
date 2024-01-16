@@ -40,7 +40,6 @@
 
 .menu ul i {
     color: white;
-    display: none;
   }
   
   .menu ul {
@@ -53,5 +52,172 @@
     font-size: 18px;
     font-weight: 400;
   }
+
+
+  .banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/img1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner .banner-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+  }
+  .banner .banner-text {
+    color: white;
+    width: 676px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  form{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    
+}
+
+.inputs{
+    width: 15.2%;
+    height: 54px;
+    border-radius: 8px;
+background: #FFF;
+padding-left: 16px;
+}
+
+.inputs:focus {
+    outline: none; 
+}
+
+#border-problem{
+    border: none;
+}
+.weight-problem{
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-weight: 400;
+font-size: 1rem;
+}
+  
+.btn-primary{
+width: 15.2%;
+height: 54px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+font-size: 1rem;
+font-weight: 700;
+padding: 16px;
+}
+
+#line {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+  @media screen and (max-width:576px)
+  {
+    .header-section {
+        width: 95%;
+        margin: 0;
+      }
+      .logo-section {
+        width: 100%;
+        gap: 9px;
+      }
+      .logo-section img {
+        width: 28px;
+      }
+      .logo-title {
+        font-size: 21px;
+      }
+      .menu ul i {
+        color: black;
+        font-size: 24px;
+      }
+      .menu ul a {
+        display: none;
+      }
+
+
+   .banner {
+    width: 95%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .banner .banner-title {
+    font-size: 22px;
+    padding-top: 32px;
+    width: 90%;
+    margin: auto;
+  }
+  .banner .banner-text {
+    width: 90%;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+  }
+  form{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs{
+    width: 70.2%;
+    height: 54px;
+    border-radius: 8px;
+background: #FFF;
+padding-left: 16px;
+}
+
+
+#border-problem{
+    border: none;
+}
+.weight-problem{
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-weight: 400;
+font-size: 1rem;
+}
+  
+.btn-primary{
+width: 70.2%;
+height: 54px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+font-size: 1rem;
+font-weight: 700;
+padding: 16px;
+}
+
+#line {
+    display: flex;
+    align-items: center;
+    
+}
+
+  }
+
 
   
