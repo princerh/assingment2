@@ -229,6 +229,141 @@ margin: 0 auto;
   grid-area: Bandarban;
 }
 
+.Agency {
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 100px;
+  }
+  .card-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .Handpicked-Hotels {
+    flex-basis: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 79px 32px 32px;
+  }
+  .card-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+  }
+  .card-three {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  .Handpicked-title {
+    
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .card-text {
+    
+    color: #5a5a5d;
+    line-height: 26px;
+  }
+
+.card-section .relative{
+    position: relative;
+    left: 350px;
+}
+ .blog{
+    width: 80%;
+    margin: 20px auto;
+ }
+ .blog-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+ }
+ .blog-videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+ }
+ .overall-news{
+    width: 80%;
+    margin: 100px auto;
+}
+.news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.news-content{
+    padding: 40px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+text-align: left;
+}
+.news-description{
+color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+
+.news .news-content form{
+    display: flex;
+    flex-direction: column;
+}
+.sty{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding: 10px;
+margin-bottom: 20px;
+}
+.forming {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; 
+    text-align: left;
+  }
+
+  footer{
+    width: 80%;
+    height: 502px;
+    margin: 40px auto;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.pogo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 110px;
+margin-bottom: 15px;
+
+}
+.footer-des{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
   @media screen and (max-width:576px)
   {
@@ -369,6 +504,48 @@ padding: 16px;
   .container img {
     width: 95%;
   }
+  .Agency {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .card-section {
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 16px;
+  }
+  .Handpicked-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 14px;
+    line-height: 24px;
+    text-align:left;
+  }
+
+  .card-section .relative{
+    position: static;
+}
+.blog-videos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+ }
+.videos{
+    width: 350px;
+    height: 300px;
+}
+.overall-news{
+    width: 70%;
+}
+.news {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.forming {
+    
+    max-width: 200px; 
+
+  }
+  
 
   }
 
