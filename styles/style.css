@@ -423,7 +423,7 @@ font-weight: 400;
     z-index: 1;
 }
 
-  @media screen and (max-width:576px)
+  @media screen and (max-width:600px)
   {
     .header-section {
         width: 95%;
@@ -587,7 +587,7 @@ padding: 16px;
     position: static;
 }
 .blog{
-    width: 95%;
+    width: 90%;
     padding: 10px;
     margin: 0;
 }
@@ -634,9 +634,9 @@ padding: 16px;
 
   .discount-section-offer {
     width: 200px;
-    height: 79px;
-    top: 60%;
-    left: 32%;
+    height: 90px;
+    top: 57%;
+    left: 37%;
     transform: rotate(-27deg);
     cursor: pointer;
   }
